@@ -1,0 +1,13 @@
+# Normalise line endings for text files
+* text=auto
+*.sh text eol=lf
+
+# Binary files: never diff or convert
+*.npz binary
+*.onnx binary
+*.gz binary
+*.pdf binary
+*.png binary
+
+# Show the project as Python, not TeX, in the GitHub language bar
+report/*.tex linguist-documentation
