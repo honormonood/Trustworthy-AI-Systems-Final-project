@@ -142,3 +142,9 @@ find a counterexample. They are reported as `TIMEOUT` rather than counted as
 robust or not robust. Because they are only 2 of 100 inputs, the conclusion
 is unaffected: the baseline's certified accuracy is between 0 % and 2 %,
 compared with 83 % for the IBP-trained model.
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE).
