@@ -1,0 +1,10 @@
+{
+  "baseline": {
+    "onnx": "mlp_baseline.onnx",
+    "max_abs_logit_error_vs_numpy": 3.814697265625e-06
+  },
+  "ibp": {
+    "onnx": "mlp_ibp.onnx",
+    "max_abs_logit_error_vs_numpy": 6.67572021484375e-06
+  }
+}

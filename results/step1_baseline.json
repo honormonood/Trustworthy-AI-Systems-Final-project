@@ -1,0 +1,24 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4060750220185404,
+      "train_acc": 0.9403833333333333,
+      "test_acc": 0.9392
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.17499425459200385,
+      "train_acc": 0.9611166666666666,
+      "test_acc": 0.9587
+    }
+  ],
+  "final_test_acc": 0.9587,
+  "final_train_acc": 0.9611166666666666,
+  "n_params": 52650,
+  "train_time_s": 1.5203437805175781,
+  "epochs": 2,
+  "lr": 0.001,
+  "batch": 128,
+  "seed": 1405
+}

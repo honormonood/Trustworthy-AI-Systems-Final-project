@@ -1,0 +1,13 @@
+# Analysis environment actually used for this submission
+# (Python 3.12.3, Ubuntu 24.04, single CPU core, no GPU)
+numpy==2.4.4
+scipy==1.17.1          # scipy.optimize.milp -> HiGHS, used by the complete verifier
+matplotlib==3.10.8
+onnx==1.22.0           # ONNX export for ERAN
+onnxruntime==1.24.4    # numerical validation of the export
+
+# Only needed to run the two *official* tools; not required to reproduce
+# any number in the report:
+#   torch>=2.0          (to_pytorch.py, run_autolirpa.py)
+#   auto_LiRPA>=0.4     (run_autolirpa.py -- the CROWN reference implementation)
+#   ERAN: use the official Docker image  `docker pull ethsri/eran:cpu`
